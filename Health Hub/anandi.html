@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctor Profile - Health Hub</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="health.css">
+  <script src="health.js"></script>
+  <style>
+    .profile-header {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .profile-header img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+    .profile-header h1 {
+      margin-top: 15px;
+    }
+    .profile-details {
+      margin: 20px 0;
+    }
+    .profile-details .detail {
+      margin-bottom: 15px;
+    }
+    .profile-details .detail h5 {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+    <header class="ha" >
+        <div class="container-fluid">
+            <nav
+            class="navbar navbar-expand-sm fixed-top navbar-light "
+        >
+            <div  class="container  ">
+                <a class="navbar-brand" style="color:yellow ; font-weight: 1000; text-shadow: rgb(32, 32, 32);" href="#">Health Hub</a>
+                <button
+                    class="navbar-toggler d-lg-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul  class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: white;" href="#" aria-current="page"
+                                >Home
+                                <span class="visually-hidden">(current)</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#"> Treatments</a>
+                       </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Doctors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Enquiry</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="#">Help</a>
+                       </li>
+                        
+                        <li class="nav-item dropdown" style="color: white;">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="dropdownId"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                 style="color: white;">Modules </a
+                            >
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownId"
+                            >
+                           
+                                <a class="dropdown-item" href="#"
+                                    >Action 1</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Action 2</a
+                                >
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="d-flex my-2 my-lg-0">
+                        <input
+                            class="form-control me-sm-2"
+                            type="text"
+                            placeholder="Search"
+                        />
+                        <button
+                            class="btn btn-outline-success my-2 my-sm-0"
+                            type="submit" style="color: white;"
+                        >
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        
+        </div>
+    </header>
+  <div class="container">
+    <div class="profile-header">
+      <img src="assets/img/inddoc.avif" alt="Doctor Image" class="img-fluid">
+      <h1>Dr.Anandibai Joshi.</h1>
+      <p>MD,Physician</p>
+    </div>
+    <div class="profile-details">
+      <div class="detail">
+        <h5>Biography</h5>
+        <p>Dr. Anandibai Joshi is a leading Physician over 20 years of experience in the medical field. she is Specialized in the medical care of infants, children, and adolescents.Committed to providing compassionate and comprehensive care to his patients.</p>
+      </div>
+      <div class="detail">
+        <h5>Education & Training</h5>
+        <p>Dr.Anandibai Joshi graduated from Harvard Medical School and completed his residency at Johns Hopkins Hospital. He has received numerous awards for his contributions to the field of Physician.</p>
+      </div>
+      <div class="detail">
+        <h5>Specialties</h5>
+        <ul>
+          <li>Hysterectomy</li>
+          <li>Dilation and curettage (D&C)</li>
+          <li>Ovarian cystectomy</li>
+        </ul>
+      </div>
+      <div class="detail">
+        <h5>Contact Information</h5>
+        <p>Email: anandibaijoshi@healthhub.com</p>
+        <p>Phone: (123) 456-7890</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/jquery-3.7.1.min.js">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="health.css">
+<link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
+    <script src="health.js"></script>
+    <title>Health Hub</title>
+</head>
+<body>
+    <header class="ha" >
+        <div class="container-fluid">
+            <nav
+            class="navbar navbar-expand-sm fixed-top navbar-light "
+        >
+            <div  class="container  ">
+                <a class="navbar-brand" style="color:yellow ; font-weight: 1000; text-shadow: rgb(32, 32, 32);" href="#">Health Hub</a>
+                <button
+                    class="navbar-toggler d-lg-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul  class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: white;" href="#" aria-current="page"
+                                >Home
+                                <span class="visually-hidden">(current)</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="Treatment.html">Treatments</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white;" href="Doctors.html">Doctors</a>
+                        </li>
+                      
+                        <li class="nav-item dropdown" style="color: white;">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="dropdownId"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                 style="color: white;">Modules </a
+                            >
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownId"
+                            >
+                           
+                                <a class="dropdown-item" href="#"   
+                                    >Action 1</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Action 2</a
+                                >
+                            </div>
+                        </li>
+                    </ul>
+                    <div class=" right d-flex my-2 my-lg-0">
+                        <ul  class="navbar-nav me-auto mt-2 mt-lg-0"> 
+                            <li class="nav-item">
+                               
+                                <a class="nav-link" style="color: white;" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                                      </svg> Enquiry</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: white;" href="#">Help</a>
+                           </li>
+
+                    </ul>
+
+                      
+                           
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        </div>
+    </header>
+<div  class="container-fluid" id="hero">
+    <div class="hello ">
+        <h1>Plan.Stay Healthy. Grow.</h1>
+        <h2>We are team of talented Doctors making World Happier</h2>
+        <a id="getStartedBtn" class="btn btn-danger" href="#"> Get Started </a>
+      
+
+        <a  class="btn btn-danger" href="https://youtu.be/Yl3BApkw7Q0?si=nB8Ej_NaT83F1ISF">Watch Now </a>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <button class="close btn btn">&times;</button>
+            <h2>Enter Your Details</h2>
+            <form id="healthForm">
+                <label class="rk" for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label class="rk" for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label class="rk" for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+                <label class="rk" for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label class="rk" for="address">Address:</label>
+                <textarea id="address" name="address" required></textarea>
+
+                <label class="rk" for="bloodPressure">Blood Pressure (mm Hg):</label>
+                <input type="text" id="bloodPressure" name="bloodPressure" pattern="\d{2,3}/\d{2,3}" required>
+
+                <label class="rk" for="sugarLevel">Sugar Level (mg/dL):</label>
+                <input type="number" id="sugarLevel" name="sugarLevel" required>
+
+                <input type="submit" value="Book an Appointment">
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</div>
+    
+
+<div class="container">
+
+    <div class="row">
+<div class="col-lg-12">
+
+    <div class="ram">
+        <h1>
+            Why to Choose Us 
+        </h1>
+        
+        <p>
+            Certainly! Here's a concise paragraph for the "Why Choose Us" subhead:
+        
+        "Choose us for our expert medical staff, state-of-the-art facilities,
+         and comprehensive services that cover all your healthcare needs. 
+         Our patient-centered approach ensures personalized care, comfort,
+          and convenience, with 24/7 availability and multiple locations.
+           We are dedicated to innovation, high patient satisfaction, and
+            active community engagement, making us a trusted partner in 
+            your health and wellness journey."
+        </p>
+        </div>
+</div>
+
+<div class="col-lg-12">
+
+    <div class="row thar">
+<div class="col-lg-4">
+    <div class="  card p-3" >
+        <img style="height: 100px;" src="icons001.svg" class="card-img-top" alt="...">
+        
+    <div class="card-body">
+      <div class="card-title">
+      <h5 style="justify-content: center; text-align: center; align-items: center;"> Emergency Service </h5>
+      </div>
+    <p>
+        "Our 24/7 Emergency Services provide immediate, expert care for urgent medical situations.
+         With skilled staff and advanced facilities, we ensure rapid diagnosis and treatment.
+          
+
+
+</p>
+ </div>
+    
+    </div>
+</div>
+
+<div class="col-lg-4">
+    <div class="  card p-3" >
+        <img style="height: 100px; ;" src="icon003.svg" class="card-img-top" alt="...">
+        
+    <div class="card-body">
+      <div class="card-title">
+      <h5  style="justify-content: center; text-align: center; align-items: center;"> Diagnostic Center </h5>
+      </div>
+    <p>
+        "Our 24/7 Emergency Services provide immediate, expert care for urgent medical situations.
+         With skilled staff and advanced facilities, we ensure rapid diagnosis and treatment.
+          
+
+</p>
+ </div>
+    
+    </div>
+</div>
+<div class="col-lg-4">
+    <div class="  card p-3" >
+        <img style="height: 100px;" src="icon004.svg" class="card-img-top" alt="...">
+        
+    <div class="card-body">
+      <div class="card-title">
+      <h5  style="justify-content: center; text-align: center; align-items: center;"> Qualified doctors</h5>
+      </div>
+    <p>
+        "Our 24/7 Emergency Services provide immediate, expert care for urgent medical situations.
+         With skilled staff and advanced facilities, we ensure rapid diagnosis and treatment.
+          
+
+</p>
+ </div>
+    
+    </div>
+</div>
+
+            </div>
+        </div>
+
+        
+    </div>
+    
+
+
+
+
+
+
+</div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--- counter code-->
+<div class=" ewww container">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>  
+    <div class="row">
+
+	<div class="four col-md-3">
+		<div class="counter-box colored">
+			<i class="fa fa-thumbs-o-up"></i>
+			<span id="cou-1" class="counter">20000</span>
+			<p>Happy Customers</p>
+		</div>
+	</div>
+	<div class="four col-md-3">
+		<div class="counter-box">
+			<i class="fa fa-group"></i>
+			<span id="cou-2" class="counter">3275</span>
+			<p>Hospital Branches</p>
+		</div>
+	</div>
+	<div class="four col-md-3">
+		<div class="counter-box">
+			<i class="fa  fa-shopping-cart"></i>
+			<span id="cou-3" class="counter">289</span>
+			<p>Councelling  Centers</p>
+		</div>
+	</div>
+	<div class="four col-md-3">
+		<div class="counter-box">
+			<i class="fa  fa-user"></i>
+			<span id="cou-4" class="counter">24</span>
+			<p>working Time</p>
+		</div>
+	</div>
+  </div>	
+</div> 
+<!--------->
+
+
+
+
+
+
+<section>
+<div class="intro container">
+    <h1> Welcome to Health Hub</h1>
+    <p>
+        At Health Hub, we are dedicated to providing exceptional 
+        healthcare services with a comprehensive range of treatments 
+        to meet all your medical needs. Our state-of-the-art facility 
+        is equipped with the latest medical technology and staffed by
+         a team of highly skilled and compassionate healthcare professionals.
+          Whether you require routine check-ups, specialized treatments,
+           or emergency care, Health Hub is your trusted partner in health and wellness.
+            We strive to offer personalized care, ensuring every patient receives 
+            the attention and treatment they deserve. Experience world-class healthcare
+             at Health Hub, where your health is our priority.
+        
+        
+        
+        Feel free to adjust any details to better match the specific services and values of your hospital.</p>
+
+</div>
+</section>
+
+<div class="spealizations">
+    <div class="container ray">
+<div class="row">
+    <h1 style="text-align: center;align-items: center; display: flex; justify-content: center;" > Center of Excellence</h1>
+<div class="col-lg-6">
+<img class="ch-img" src="left-image-care.webp" alt="">
+</div>
+<div class="col-lg-6">
+    <div class="ch-care-container ">
+        <a class="bubble-btn btn " href="#">
+            <div>
+                <i ></i>
+                <p>
+                    Cardiac Sciences
+                </p>
+            </div>
+        </a>
+        <a  class="bubble-btn btn " href="#">
+            <div>
+                <i></i>
+                <p>
+                    Neuro Sciences
+                </p>
+            </div>
+        </a>
+        <a  class="bubble-btn btn " href="#">
+            <div>
+                <i></i>
+                <p>
+                    orthopedic 
+                </p>
+            </div>
+        </a>
+        <a  class="bubble-btn btn " href="#">
+            <div>
+                <i></i>
+                <p>
+                Paediatrics
+                </p>
+            </div>
+        </a>
+        <a  class="bubble-btn btn " href="#">
+            <div>
+                <i></i>
+                <p>
+                    gynacologyist
+                </p>
+            </div>
+        </a>
+    
+        <a  class="bubble-btn btn " href="#">
+            <div>
+                <i></i>
+                <p>
+                   Surgical services
+                </p>
+            </div>
+        </a>
+        <a  class="bubble-btn btn " href="#">
+            <div>
+                <i></i>
+                <p>
+                    Cardiac Sciences
+                </p>
+            </div>
+        </a>
+        <a  class="bubble-btn btn " href="#">
+            <div>
+                <i></i>
+                <p>
+                    Cardiac Sciences
+                </p>
+            </div>
+        </a>
+        <a  class="bubble-btn btn " href="#">
+            <div>
+                <i></i>
+                <p>
+                    Cardiac Sciences
+                </p>
+            </div>
+        </a>
+        <a  class="bubble-btn btn " href="#">
+            <div>
+                <i></i>
+                <p>
+                    Cardiac Sciences
+                </p>
+            </div>
+        </a>
+        <a  class="bubble-btn btn " href="#">
+            <div>
+                <i></i>
+                <p>
+                    Cardiac Sciences
+                </p>
+            </div>
+        </a>
+        <a  class="bubble-btn btn "  href="#">
+            <div>
+                <i></i>
+                <p>
+                    Cardiac Sciences
+                </p>
+            </div>
+        </a>
+        <div class="view" >
+            <button style=" font-size: 21px; font-weight: 700; text-align: center;align-items: center;  justify-content: center; margin-left: 155px;" class="bubble1-btn btn">
+        view 
+            </button>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+<section id="about-boxes" class="about-boxes">
+
+<div class="row p-0">
+<div class="rat">
+    <h1 class="align-items-center y=text-center text-shadow">
+        Our Doctors
+    </h1>
+</div>
+<div class="col-lg-3">
+<div class="card">
+    <img style="height: 269px;" src="boydoc.jpg" class="card-img-top" alt="...">
+    <div class="card-icon">
+        <i class="iconed">
+            <svg style="height: 40px; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zM104
+           424c0 13.3 10.7 24 24 24s24-10.7 24-24-10.7-24-24-24-24 10.7-24 24zm216-135.4v49c36.5 7.4 
+           64 39.8 64 78.4v41.7c0 7.6-5.4 14.2-12.9 15.7l-32.2 
+           6.4c-4.3 .9-8.5-1.9-9.4-6.3l-3.1-15.7c-.9-4.3 1.9-8.6 6.3-9.4l19.3-3.9V416c0-62.8-96-65.1-96
+            1.9v26.7l19.3 3.9c4.3 .9 7.1 5.1 6.3 9.4l-3.1 15.7c-.9 
+            4.3-5.1 7.1-9.4 6.3l-31.2-4.2c-7.9-1.1-13.8-7.8-13.8-15.9V416c0-38.6 27.5-70.9 64-78.4v-45.2c-2.2 
+            .7-4.4 1.1-6.6 1.9-18 6.3-37.3 9.8-57.4 9.8s-39.4-3.5-57.4-9.8c-7.4-2.6-14.9-4.2-22.6-5.2v81.6c23.1
+             6.9 40 28.1 40 53.4 0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.3 16.9-46.5 40-53.4v-80.4C48.5 301 0 
+             355.8 0 422.4v44.8C0 491.9 20.1 512 44.8 512h358.4c24.7 0 44.8-20.1 
+             44.8-44.8v-44.8c0-72-56.8-130.3-128-133.8z"/></svg>
+        </i>
+    </div>
+<div class="card-body">
+  <div class="card-title">
+   <a class="btn btn bg-white" href="rahulprofile.html">
+    <h5> Rahul </h5>
+   </a>
+  </div>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, beatae perspiciatis in similique est minima illo distinctio unde, rem voluptatibus numquam laborum, molestias ad debitis quos doloribus commodi reprehenderit fugiat.
+</p>
+</div>
+
+</div>
+    </div>
+
+    
+<div class="col-lg-3">
+    <div class="card">
+        <img style="height: 269px;" src="assets/img/sylphie.avif" class="card-img-top" alt="...">
+        <div class="card-icon">
+            <i class="iconed">
+                <svg style="height: 40px; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zM104
+               424c0 13.3 10.7 24 24 24s24-10.7 24-24-10.7-24-24-24-24 10.7-24 24zm216-135.4v49c36.5 7.4 
+               64 39.8 64 78.4v41.7c0 7.6-5.4 14.2-12.9 15.7l-32.2 
+               6.4c-4.3 .9-8.5-1.9-9.4-6.3l-3.1-15.7c-.9-4.3 1.9-8.6 6.3-9.4l19.3-3.9V416c0-62.8-96-65.1-96
+                1.9v26.7l19.3 3.9c4.3 .9 7.1 5.1 6.3 9.4l-3.1 15.7c-.9 
+                4.3-5.1 7.1-9.4 6.3l-31.2-4.2c-7.9-1.1-13.8-7.8-13.8-15.9V416c0-38.6 27.5-70.9 64-78.4v-45.2c-2.2 
+                .7-4.4 1.1-6.6 1.9-18 6.3-37.3 9.8-57.4 9.8s-39.4-3.5-57.4-9.8c-7.4-2.6-14.9-4.2-22.6-5.2v81.6c23.1
+                 6.9 40 28.1 40 53.4 0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.3 16.9-46.5 40-53.4v-80.4C48.5 301 0 
+                 355.8 0 422.4v44.8C0 491.9 20.1 512 44.8 512h358.4c24.7 0 44.8-20.1 
+                 44.8-44.8v-44.8c0-72-56.8-130.3-128-133.8z"/></svg>
+            </i>
+        </div>
+    <div class="card-body">
+        <div class="card-title">
+   
+<a class=btn btn bg-white href="sylphie.html"> Dr.Sylphie</a>
+         
+          </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, beatae perspiciatis in similique est minima illo distinctio unde, rem voluptatibus numquam laborum, molestias ad debitis quos doloribus commodi reprehenderit fugiat.
+    </p>
+    </div>
+    
+    </div>
+        </div>
+     
+        
+
+
+<div class="col-lg-3">
+    <div class="card">
+        
+        <img style="height: 269px;" src="doctor-crossing-arms-while-holding-stethoscope-white-coat_1108314-50267.jpg" class="card-img-top" alt="...">
+        <div class="card-icon">
+            <i class="iconed">
+                <svg style="height: 40px; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zM104
+               424c0 13.3 10.7 24 24 24s24-10.7 24-24-10.7-24-24-24-24 10.7-24 24zm216-135.4v49c36.5 7.4 
+               64 39.8 64 78.4v41.7c0 7.6-5.4 14.2-12.9 15.7l-32.2 
+               6.4c-4.3 .9-8.5-1.9-9.4-6.3l-3.1-15.7c-.9-4.3 1.9-8.6 6.3-9.4l19.3-3.9V416c0-62.8-96-65.1-96
+                1.9v26.7l19.3 3.9c4.3 .9 7.1 5.1 6.3 9.4l-3.1 15.7c-.9 
+                4.3-5.1 7.1-9.4 6.3l-31.2-4.2c-7.9-1.1-13.8-7.8-13.8-15.9V416c0-38.6 27.5-70.9 64-78.4v-45.2c-2.2 
+                .7-4.4 1.1-6.6 1.9-18 6.3-37.3 9.8-57.4 9.8s-39.4-3.5-57.4-9.8c-7.4-2.6-14.9-4.2-22.6-5.2v81.6c23.1
+                 6.9 40 28.1 40 53.4 0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.3 16.9-46.5 40-53.4v-80.4C48.5 301 0 
+                 355.8 0 422.4v44.8C0 491.9 20.1 512 44.8 512h358.4c24.7 0 44.8-20.1 
+                 44.8-44.8v-44.8c0-72-56.8-130.3-128-133.8z"/></svg>
+            </i>
+        </div>
+    <div class="card-body">
+        <div class="card-title">
+           
+                <a class=btn btn bg-white href="drake.html"> Dr.Drake</a>
+                          
+          </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, beatae perspiciatis in similique est minima illo distinctio unde, rem voluptatibus numquam laborum, molestias ad debitis quos doloribus commodi reprehenderit fugiat.
+    </p>
+    </div>
+    
+    </div>
+        </div>
+
+        
+<div class="col-lg-3">
+    <div class="card">
+        <img style="height: 269px;" src="assets/img/inddoc.avif" class="card-img-top" alt="...">
+        <div class="card-icon">
+            <i class="iconed">
+                <svg style="height: 40px; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zM104
+               424c0 13.3 10.7 24 24 24s24-10.7 24-24-10.7-24-24-24-24 10.7-24 24zm216-135.4v49c36.5 7.4 
+               64 39.8 64 78.4v41.7c0 7.6-5.4 14.2-12.9 15.7l-32.2 
+               6.4c-4.3 .9-8.5-1.9-9.4-6.3l-3.1-15.7c-.9-4.3 1.9-8.6 6.3-9.4l19.3-3.9V416c0-62.8-96-65.1-96
+                1.9v26.7l19.3 3.9c4.3 .9 7.1 5.1 6.3 9.4l-3.1 15.7c-.9 
+                4.3-5.1 7.1-9.4 6.3l-31.2-4.2c-7.9-1.1-13.8-7.8-13.8-15.9V416c0-38.6 27.5-70.9 64-78.4v-45.2c-2.2 
+                .7-4.4 1.1-6.6 1.9-18 6.3-37.3 9.8-57.4 9.8s-39.4-3.5-57.4-9.8c-7.4-2.6-14.9-4.2-22.6-5.2v81.6c23.1
+                 6.9 40 28.1 40 53.4 0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.3 16.9-46.5 40-53.4v-80.4C48.5 301 0 
+                 355.8 0 422.4v44.8C0 491.9 20.1 512 44.8 512h358.4c24.7 0 44.8-20.1 
+                 44.8-44.8v-44.8c0-72-56.8-130.3-128-133.8z"/></svg>
+            </i>
+        </div>
+    <div class="card-body">
+        <div class="card-title">
+           
+<a class=btn btn bg-white  href="anandi.html"  > Dr.Anandibai Joshi</a>
+         
+          </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, beatae perspiciatis in similique est minima illo distinctio unde, rem voluptatibus numquam laborum, molestias ad debitis quos doloribus commodi reprehenderit fugiat.
+    </p>
+    </div>
+    
+    </div>
+        </div>
+</div>
+</section>
+
+
+
+<section class="branches container">
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img src="hos1.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="hos2.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="hos3.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="banjara-hillz.webp"  height="140vh">
+        </div>
+    </div>
+       
+    
+       <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+       <script src="dist/owl.carousel.min.js"></script>
+              <script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:5 
+        }
+    }
+})
+              </script>
+        
+    
+</section>
+
+
+
+
+
+
+<div class="container tui p-3">
+    <div class="row rai ">
+        <div class=" roi col-lg-6">
+    <h1> Patient Care</h1>
+    <p>
+        
+ 
+         
+        At Health Hub, we are dedicated to providing exceptional 
+        healthcare services with a comprehensive range of treatments 
+        to meet all your medical needs. Our state-of-the-art facility 
+        is equipped with the latest medical technology and staffed.
+            We strive to offer personalized care, ensuring every patient receives 
+            the attention and treatment they deserve. Experience world-class healthcare
+             at Health Hub, where your health is our priority.
+        
+        
+        
+        Feel free to adjust any details to better match the specific services and values of your hospital.</p>
+        </div>
+        <div class=" rak col-lg-6">
+           <img src="premium_photo-1682130277144-423d6b582e56.avif" alt=""> 
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<section>
+    <div class="into container">
+        <h1> Our Branches & Hospitals</h1>
+        <p>
+           
+
+"Our Branches & Hospitals" typically refers to the network of
+ medical facilities that a healthcare organization operates. 
+ These branches and hospitals provide a range of medical 
+ services to the community.This network structure ensures 
+ comprehensive healthcare coverage, making advanced medical
+  services available to a wide range of patients in various locations.
+</p>
+    
+    </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="First slide"
+            ></li>
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="1"
+                aria-label="Second slide"
+            ></li>
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="2"
+                aria-label="Third slide"
+            ></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img
+                    src="hos1.jpg"
+                    class="w-100 d-block"
+                    alt="First slide"
+                />
+            </div>
+            <div class="carousel-item">
+                <img
+                    src="hos2.jpg"
+                    class="w-100 d-block"
+                    alt="Second slide"
+                />
+            </div>
+            <div class="carousel-item">
+                <img
+                    src="hos3.jpg"
+                    class="w-100 d-block"
+                    alt="Third slide"
+                />
+            </div>
+        </div>
+        <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="prev"
+        >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="next"
+        >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+</div>
+<!-----------------------------Footer------------------------------>
+<footer class="care-footer">
+ <div id="footer-content">
+<div class="care-footer-blue">
+<div class="container-custom foot-cont row no-padding m-0">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padding foot-col">
+<div class="divideline-ftr">
+<h3 class="foot-header border-0">
+    Registered office
+</h3>
+<div class="care-address">
+<p class="footer-p">
+
+    Quality CARE India Limited
+    <br>
+    #6-3-248/2, Road No.1,
+    <br>
+    
+    Banjara Hills, Hyderabad-500034,
+    <br>
+    "Telangana, India."
+</p>
+
+<p class="footer-p">
+    CIN: U85110TG1992PLC014728
+</p>
+<a href="#">
+   <p class="footer-p">
+    +91-40 6810 6589
+   </p> 
+</a>
+<a href="#">
+    <p class="footer-p">
+        Doctor Enquiry: +91-40 6810 6585
+    </p> 
+ </a>
+</div>
+<br>
+<div class="social-footicon">
+<a href="#">
+    <img class="foot-icon" 
+    src="yticon.png" alt="youtube logo" height="30" width="30" loading="lazy">
+</a>
+<a href="#">
+    <img class="foot-icon" 
+    src="xicon.png" alt="youtube logo" height="30" width="30" loading="lazy">
+</a>
+<a href="#">
+    <img class="foot-icon" 
+    src="fbicon.png" alt="youtube logo" height="30" width="30" loading="lazy">
+</a>
+<a href="#">
+    <img class="foot-icon" 
+    src="instaicon.jpeg" alt="youtube logo" height="30" width="30" loading="lazy">
+</a>
+<a href="#">
+    <img class="foot-icon" 
+    src="linkedinicon.png" alt="youtube logo" height="30" width="30" loading="lazy">
+</a>
+</div>
+
+
+<div>
+
+</div>
+</div>
+</div>
+<br>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padding foot-col">
+    <h3 class="foot-header">
+        Know Us
+    </h3>
+
+    <a href="#">
+        <p class="footer-p">
+            Hospitals & Directions
+        </p> 
+     </a>
+     
+<a href="#">
+    <p class="footer-p">
+        Specialities & Treatment
+    </p> 
+ </a>
+ 
+<a href="#">
+    <p class="footer-p">
+        Our Doctors
+    </p> 
+ </a>
+ 
+<a href="#">
+    <p class="footer-p">
+        International Patient Services
+    </p> 
+ </a>
+ 
+<a href="#">
+    <p class="footer-p">
+        News & Media
+    </p> 
+ </a>
+
+
+    
+ <h3 class="foot-header">
+    TARIFF
+</h3>
+ 
+<a href="https://www.carehospitals.com/careers">
+    <p class="footer-p">
+        Careers
+    </p> 
+ </a>
+ <div>
+<button class="btn btn bg-white">
+stent pricing
+</button>
+<button class="btn btn bg-white">
+    Implant Pricing
+    </button>
+ </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padding foot-col">
+    <h3 class="foot-header">
+        Actions
+    </h3>
+
+    <a href="#">
+        <p class="footer-p">
+            Contact Us
+        </p> 
+     </a>
+     <a href="#">
+        <p class="footer-p">
+            Book an Appointment
+        </p> 
+     </a>
+     <a href="#">
+        <p class="footer-p">
+            Pay Online
+        </p> 
+     </a>
+     <a href="#">
+        <p class="footer-p">
+            Feedback
+        </p> 
+     </a>
+     <a href="#">
+        <p class="footer-p">
+            Lab Reports
+        </p> 
+     </a>
+     <a href="#">
+        <p class="footer-p">
+            Video Consultation
+        </p> 
+     </a>
+     <a href="#">
+        <p class="footer-p">
+            Pay Online
+        </p> 
+     </a>
+     <a href="#">
+        <p class="footer-p">
+            Feedback
+        </p> 
+     </a>
+     
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padding foot-col">
+    <h3 class="foot-header">
+        Centres of Excellence
+    </h3>
+
+    <a href="#">
+        <p class="footer-p">
+            Cardiac Sciences
+        </p> 
+     </a>
+     <a href="#">
+        <p class="footer-p">
+            Gastro Sciences
+        </p> 
+     </a>
+     <a href="#">
+        <p class="footer-p">
+            Nephrology
+
+            
+        </p> 
+     </a>
+     <a href="#">
+        <p class="footer-p">
+            Neurosciences
+            
+            
+        </p> 
+     </a>
+     <a href="#">
+        <p class="footer-p">
+            Oncology
+            
+           
+        </p> 
+     </a>
+     <a href="#">
+        <p class="footer-p">
+            Orthopaedics
+           
+        </p> 
+     </a>
+     <a href="#">
+        <p class="footer-p">
+            
+            Paediatrics
+            
+          
+        </p> 
+     </a>
+     <a href="#">
+        <p class="footer-p">
+            Pulmonology
+            
+           
+        </p> 
+     </a>
+</div>
+</div>
+
+
+<div class="footer-location-area care-footer-stp care-foo-p">
+<p class="care-foo-p care-footer-stp">
+<span style="font-weight: 500;">Kakinada</span>
+<div class="vr"></div>
+<span style="font-weight: 500;" >Rajamahendravaram</span>
+<div class="vr"></div>
+<span style="font-weight: 500;">Amalapuram</span>
+<div class="vr"></div>
+<span style="font-weight: 500;">Guntur</span>
+<div class="vr"></div>
+<span style="font-weight: 500;">vishakapatnam</span>
+<div class="vr"></div>
+<span style="font-weight: 500;">vijayawada</span>
+</p>
+</div>
+
+<div class="footer-copyright-area container-custom privacy">
+    <p class="copyright-p">Copyright © Health Hub Hospitals - All Rights Reserved</p>
+    <p class="copyright-p">
+
+        <a href="#">feedback</a>
+        <a href="#">feedback</a>
+        <a href="#">feedback</a>
+
+    </p>
+</div>
+</div>
+
+ </div>   
+
+
+</footer>
+
+
+   
+<script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

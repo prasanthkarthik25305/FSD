@@ -1,0 +1,498 @@
+.rai h1{
+    color: black;
+}
+.rai{
+   
+    height: 1000px;
+}
+
+
+*{
+    padding: 0px;
+}
+.hello h1{
+  font-size: 50px;
+  padding: 30px; 
+  margin-top: 20px;  
+}
+
+#hero a{
+  margin-top: 40px;
+  margin-left: 10px;
+}
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url( surgeon.jpg ) top center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    color: #f6f6f6;
+    text-shadow:2px 2px 5px  #0f0f0f;
+}
+.hello {
+ padding: 120px;
+  
+  
+    justify-content: center;
+    align-items: center;
+   
+    text-align: center;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+
+}
+.rk{
+  color: black;
+text-shadow: none;
+font-weight: bold;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+ 
+  width: 80%;
+}
+
+.close {
+  color: #02ff02;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 0%;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(250, 2, 2);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+
+
+
+
+
+.roi{
+margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+   
+  
+    text-align: center;
+    
+
+}
+.rak img{
+    width: 100%;
+    background-size: cover;
+    margin-top: 100px;
+}
+.tui{
+   background-color: #faf9f9;
+   margin-top: 20px;
+}
+
+<!---->
+.ewww{
+    margin-top:80px;
+}
+
+.counter-box {
+	display: block;
+	background: #f6f6f6;
+	padding: 40px 20px 37px;
+	text-align: center
+}
+
+.counter-box p {
+	margin: 5px 0 0;
+	padding: 0;
+	color: #909090;
+	font-size: 18px;
+	font-weight: 500
+}
+
+.counter-box i {
+	font-size: 60px;
+	margin: 0 0 15px;
+	color: #d2d2d2
+}
+
+.counter { 
+	display: block;
+	font-size: 32px;
+	font-weight: 700;
+	color: #666;
+	line-height: 28px
+}
+
+.counter-box.colored {
+      background: #3acf87;
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+	color: #fff
+}
+.roi p{
+
+font-size: 17px;
+margin-top: 30px;
+}
+
+.intro{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border: 1px solid #ddd;
+border-radius: 10px 10px 10px 10px;
+    justify-content: center;
+   
+    text-align: center;
+    align-items: center;
+}
+.intro h1{
+    justify-content: center;
+   
+    text-align: center;
+    align-items: center;
+    color: #8b0438;
+  
+}
+.intro p{
+    font-size: 18px;
+}
+.roi h1{
+   margin-top: 30px;
+}
+.card{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.about-boxes .card {
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+}
+
+.about-boxes .card-icon i {
+    font-size: 32px;
+    color: #fff;
+    width: 64px;
+    height: 64px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #17ff9e;
+    border-radius: 4px 4px 4px 4px;
+    text-align: center;
+    border: 4px solid #fff;
+    transition: 0.3s;
+    display: inline-block;
+    
+}
+.about-boxes .card-icon   {
+
+    text-align: center;
+    margin-top: -32px;
+    
+   }
+.iconed svg{
+    margin-bottom: 10px;
+}
+.card {
+
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+.rat {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.about-boxes .card-title {
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.rai{
+    
+  
+    margin-top: 20px;
+}
+.thar img{
+justify-content: center;
+text-align: center;
+align-items: center;
+
+}
+.ram{
+
+    justify-content: center;
+text-align: center;
+align-items: center;
+padding: 30px;
+}
+.ram p{
+font-size: 18px;
+
+}
+.navbar{
+    background-color: #403a91;
+    height: 65px;
+}
+.care-footer-blue {
+    padding: 60px 0 20px;
+    background-color: #d0d0d0;
+    background-image: linear-gradient(to right, #64c7ef, #64c7ef 25%, #936ea9 25%, #936ea9 50%, #5b458f 50%, #5b458f 75%, #222e54 75%);
+    background-size: 100% 6px;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.footer-p {
+    padding-right: 5%;
+    color: #001c54;
+    font-size: 15px;
+    margin-bottom: 10px;
+    word-break: break-word;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.footer-location-area {
+    background: #fff;
+   padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+
+.container-custom {
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+p.copyright-p {
+    color: #001c54 !important;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.ray{
+ background-color: #ebebeb94;
+padding: 30px;
+}
+.ch-img {
+    margin-top: 10px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
+}
+
+.ch-care-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: 0 8px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+
+.bubble-btn {
+    background-color: #008CBA;
+    color: rgb(253, 250, 250);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 10px;
+    font-size: 16px;
+    position: relative;
+    transition: transform 0.8s;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .bubble-btn:hover {
+    animation: bubble 0.6s ease-out;
+  }
+  
+  @keyframes bubble {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+
+  
+.bubble1-btn {
+    background-color: #f78809fa;
+    color: rgb(253, 250, 250);
+    border: none;
+    border-radius: 50px;
+    padding: 15px 100px;
+    font-size: 16px;
+    position: relative;
+    transition: transform 0.8s;
+   
+    margin-top: 10px;
+  }
+  
+  .bubble1-btn:hover {
+    animation: bubble 0.6s ease-out;
+  }
+  
+  @keyframes bubble1 {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+
+
+
+
+
+
+.dropdown-menu {
+
+  background-color: rgb(233, 233, 14);
+}
+
+
+
+
+.into{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border: 1px solid #ddd;
+border-radius: 10px 10px 10px 10px;
+  justify-content: center;
+ 
+  text-align: center;
+  align-items: center;
+}
+.into h1{
+  justify-content: center;
+ 
+  text-align: center;
+  align-items: center;
+  color: #f32727;
+
+}
+.into p{
+  font-size: 18px;
+}
+
+
+.ram{
+padding-top: 20px;
+    justify-content: center;
+text-align: center;
+align-items: center;
+padding: 30px;
+}
+.ram,p{
+font-size: 18px;
+
+}
+
+.tophead{
+  
+
+  padding-top: 30px;
+}
+.cardio p{
+font-size: 18px;
+}
